@@ -1,2 +1,4 @@
 # pcservice
-Just template my site.
+img - картинки
+css - стили 
+html - страничка

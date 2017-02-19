@@ -1,0 +1,184 @@
+.container {
+    font-family: 'Oswald', sans-serif;
+    max-width: 960px;
+    margin: auto;
+    }
+
+p {
+    font-weight: 300;
+}
+
+h1, h4 {
+    margin: 0;
+}
+
+h5{
+    margin: 0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+sup {
+    font-size: 75%;
+}
+
+#sticker {
+    background-color: white;
+    margin: 0;
+}
+
+#mini-logo{
+    float: left;
+    padding-top: 4px;
+    padding-left: 8px;
+    visibility: hidden;
+}
+
+#mini-caption{
+    float: left;
+    margin: 0;
+    padding-top: 4px;
+    padding-left: 4px;
+    visibility: hidden;
+}
+
+#mini-phone{
+    float: left;
+    margin: 0;
+    padding-top: 4px;
+    padding-left: 4px;
+    visibility: hidden;
+}
+.about, .services, .prices {
+    border-bottom: 2px solid red;
+}
+
+.logo {
+    display: inline-block;
+    width:146px;
+    height:114px;
+    margin-top: 20px;
+    margin-right: 27px;
+    vertical-align: top;
+}
+
+.caption{
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 20px;
+}
+
+
+.phone {
+    float:right;
+    text-align: center;
+
+}
+
+.number {
+    font-size: 250%;
+    font-weight: 500;
+    margin: 0;
+}
+.time, .address {
+    margin: 0;
+}
+
+.nav {
+    border-bottom: 3px solid red;
+}
+
+.nav ul {
+    list-style-type: none;
+    text-align: right;
+    margin:0;
+}
+
+.nav li{
+    display: inline;
+    margin-left: 27px;
+    font-size: x-large;
+}
+
+.nav li a, .caption a {
+    text-decoration: none;
+    color: black;
+    
+}
+
+.services{
+    padding-bottom: 42px;
+}
+
+.services figure{
+    display: inline-block;
+    width: 72px;
+    height: 72px;
+    margin: 0;
+    margin: 42px;
+}
+
+.services figure figcaption {
+    text-align: center;
+}
+.prices ul{
+    padding: 0;
+}
+
+.prices li{
+    display: inline-block;
+    padding-right: 72px; 
+}
+
+.contacts ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.contacts li{
+   display: inline-block;
+   vertical-align: top;
+}
+
+input {
+    width: 100%;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    padding: 12px 20px;
+}
+
+textarea {
+    width: 100%;
+    height: 245px;
+    box-sizing: border-box;
+    resize: none;
+    padding: 12px 20px;
+}
+
+input[type="submit"]{
+    padding-right: 0;
+}
+
+.footer {
+    background: darkred;
+    color: white;
+    font-weight: bold;
+}
+
+.footer ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer li{
+   display: inline-block;
+   vertical-align: top;
+   width: 33%;
+}
+
+.copyright {
+    text-align: center;
+}

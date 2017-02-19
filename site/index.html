@@ -2,8 +2,11 @@
 <html>
   <head>
     <title>PC Repair Service</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/styles.css">
     <link href="https://fonts.googleapis.com/css?family=Oswald:300,400,500&amp;subset=cyrillic" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>
+    <script src="js/jquery.sticky.js"></script>
+    <script src="js/scripts.js"></script>
   </head>
 <body>
   <div class="container"> 
@@ -13,9 +16,8 @@
       </div>
       <div class="caption">
           <a href="#">
-            <h1>Компьютерная<br>
-            скорая помощь</h1><br>
-
+            <h1>СКОРАЯ<br>
+            КОМПЬЮТЕРНАЯ ПОМОЩЬ</h1><br>
           </a>
       </div>
       <div class="phone">
@@ -23,25 +25,31 @@
           <p class="time">Пн - Пт 9<sup>00</sup> - 17<sup>00</sup> | Суб-Вск 10<sup>00</sup> - 15<sup>00</sup></p>
           <p class="address">Тула, пр. Ленина, 17</p>
       </div>
-      <div class="nav">
+      <div class="nav"   id="sticker">
+        <span id="mini-logo">
+          <a href="#"><img src="img/mini-logo.png" alt="logo" style="width:30px;height:24px;border:0;"> </a>
+        </span>
+         <span id="mini-caption"><h4>СКОРАЯ КОМПЬЮТЕРНАЯ ПОМОЩЬ</h4></span>
+         <span id="mini-phone"><h4>8-909-101-20-20</h4></span>
         <ul>
           <li>
-            <a href="#">О нас</a>
+            <a href="#about">О нас</a>
           </li>
           <li>
-            <a href="#">Услуги</a>
+            <a href="#services">Услуги</a>
           </li>
           <li>
-            <a href="#">Цены</a>
+            <a href="#prices">Цены</a>
           </li>
           <li>
-            <a href="#">Контакты</a>
+            <a href="#contacts">Контакты</a>
           </li>
         </ul>
       </div>
     </div>
+    
 
-    <div class="about">
+    <div class="about" id="about">
         <h3>О КОМПАНИИ</h3>
 
         <p>«Сеть компьютерных клиник» — это федеральная сеть сервисных центров по гарантийному и послегарантийному обслуживанию 
@@ -56,7 +64,7 @@
         Ежегодно все инженеры компьютерных клиник проходят аттестацию по продукции этих и других производителей.
       </pre>
     </div>
-    <div class="services">
+    <div class="services" id="about">
       <figure>
         <img src="img/desktop.png" alt="pc_repair">
         <figcaption>Ремонт компьютеров</figcaption>
@@ -106,7 +114,7 @@
         <figcaption>Установка программ</figcaption>
       </figure>
     </div>
-    <div class="prices">
+    <div class="prices" id="prices">
       <h3>ЦЕНЫ</h3>
       <ul>
         <li>
@@ -147,7 +155,7 @@
         </li>
       </ul>
     </div>
-    <div class="contacts">
+    <div class="contacts" id="contacts">
       <ul>
         <li>
           <form>

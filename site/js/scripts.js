@@ -11,6 +11,4 @@
         document.getElementById('mini-caption').style.visibility = 'hidden';
         document.getElementById('mini-phone').style.visibility = 'hidden';
     } );
-    
-    
   });
